@@ -1,0 +1,17 @@
+POST http://localhost:8080/api/areas
+Content-Type: application/json
+
+{
+    "nome": "Engenharia de Software"
+}
+
+###
+POST http://localhost:8080/api/areas
+Content-Type: application/json
+
+{
+    "nome": "Interface Humano Computador"
+}
+
+###
+GET  http://localhost:8080/api/areas
